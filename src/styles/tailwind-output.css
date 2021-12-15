@@ -686,10 +686,6 @@ hr {
 	--tw-bg-opacity: 1;
 	background-color: rgb(16 185 129 / var(--tw-bg-opacity));
 }
-.bg-indigo-500 {
-	--tw-bg-opacity: 1;
-	background-color: rgb(99 102 241 / var(--tw-bg-opacity));
-}
 .p-6 {
 	padding: 1.5rem;
 }
@@ -742,11 +738,6 @@ hr {
 .hover\:bg-emerald-600:hover {
 	--tw-bg-opacity: 1;
 	background-color: rgb(5 150 105 / var(--tw-bg-opacity));
-}
-
-.hover\:bg-indigo-600:hover {
-	--tw-bg-opacity: 1;
-	background-color: rgb(79 70 229 / var(--tw-bg-opacity));
 }
 
 .hover\:opacity-100:hover {

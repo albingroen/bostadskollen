@@ -7,7 +7,7 @@
 	let amortizationRate: string = '2';
 	let other: string = '';
 
-	const replaceCommas = (value: string) => value.replace(/,/g, '.');
+	const replaceCommas = (value: string) => value.replace(/,/g, '.').replace(/\s/g, '');
 
 	const handleSubmit = () => {
 		const lendingAmount = Number(replaceCommas(price)) * (Number(replaceCommas(grade)) / 100);
@@ -17,6 +17,15 @@
 		const operatingCostAmount = Number(replaceCommas(operatingCost)) / 12;
 		const chargeAmount = Number(replaceCommas(charge));
 		const otherAmount = Number(replaceCommas(other));
+
+		// console.log({
+		// 	lendingAmount,
+		// 	amortizationAmount,
+		// 	interestAmount,
+		// 	operatingCostAmount,
+		// 	chargeAmount,
+		// 	otherAmount
+		// });
 
 		const cost =
 			amortizationAmount + interestAmount + chargeAmount + operatingCostAmount + otherAmount;
