@@ -75,7 +75,7 @@
 		</div>
 
 		<div class="flex flex-col space-y-2">
-			<label for="other">Övriga kostnader</label>
+			<label for="other">Övriga månadskostnader</label>
 			<input id="other" bind:value={other} type="text" placeholder="" />
 		</div>
 
