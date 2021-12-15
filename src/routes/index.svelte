@@ -66,12 +66,12 @@
 
 		<div class="flex flex-col space-y-2">
 			<label for="grade">Lånegrad (%)</label>
-			<input id="grade" bind:value={grade} type="text" placeholder="85%" />
+			<input id="grade" bind:value={grade} type="text" placeholder="85" />
 		</div>
 
 		<div class="flex flex-col space-y-2">
 			<label for="interest">Ränta (%)</label>
-			<input id="interest" bind:value={interest} type="text" placeholder="1,2%" />
+			<input id="interest" bind:value={interest} type="text" placeholder="1,2" />
 		</div>
 
 		<div class="flex flex-col space-y-2">
