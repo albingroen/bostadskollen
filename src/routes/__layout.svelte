@@ -1,5 +1,8 @@
 <script lang="ts">
 	import '../styles/tailwind-output.css';
+	import splitbee from '@splitbee/web';
+
+	splitbee.init();
 
 	const url = 'https://bostadskollen.albingroen.com';
 	const image =
