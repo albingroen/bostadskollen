@@ -5,7 +5,7 @@
 	const image =
 		'https://res.cloudinary.com/albin-groen/image/upload/q_auto,f_auto/v1639560937/bostadskollen-seo_vndez1.png';
 	const description =
-		'Med Bostadskollen kan du ta reda på vad en bostadsrätt skulle kosta dig varje månad.';
+		'Med Bostadskollen kan du ta reda på vad en bostadsrätt egentligen skulle kosta dig varje månad.';
 	const title = 'Bostadskollen - Vad kostar det egentligen?';
 </script>
 
