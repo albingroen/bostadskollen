@@ -18,19 +18,14 @@
 		const chargeAmount = Number(replaceCommas(charge));
 		const otherAmount = Number(replaceCommas(other));
 
-		// console.log({
-		// 	lendingAmount,
-		// 	amortizationAmount,
-		// 	interestAmount,
-		// 	operatingCostAmount,
-		// 	chargeAmount,
-		// 	otherAmount
-		// });
-
 		const cost =
 			amortizationAmount + interestAmount + chargeAmount + operatingCostAmount + otherAmount;
 
-		alert(`Efter skattereduktion:\n\n${cost}kr/mån`);
+		alert(
+			`Efter skattereduktion:\n${cost}kr/mån\n\nEfter skattereduktion & minus ammortering:\n${
+				cost - amortizationAmount
+			}kr/mån`
+		);
 	};
 </script>
 
